@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blueviolet;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container .mood h2{
+    font-size: 150px;
+
+}
+button{
+    padding: 14px 26px;
+    color: white;
+    background-color: brown;
+    border-radius: 10px;
+    transition: .5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
+}
+button:hover{
+    background-color: aqua;
+    color: black;
+}
+.mood{
+    background-color: aqua;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+
+}

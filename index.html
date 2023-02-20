@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>why sad </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="mood">
+            <h2 id="letter">😥</h2>
+        </div>
+        <button class="btn" onclick="myFunction()">change moood</button>
+    </div>
+
+    <script>
+        var message = prompt("please enter your mood emoji");
+        let person = {
+            angry: "😤",
+            nomoood: "😒",
+            smile: "😁",
+            goodfeel: "🥰"
+        };
+
+        function myFunction() {
+            if (message ==null){
+                document.getElementById("letter").innerHTML = message;
+                
+            }else{
+                document.getElementById("letter").innerHTML = message;
+            }
+            <!-- and -->
+        }
+    </script>
+</body>
+
+</html>
